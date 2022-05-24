@@ -9,7 +9,7 @@ import 'infra/middleware_interception.dart';
 import 'utils/custom_env.dart';
 
 void main() async {
-  CustomEnv.fromFile('.env-dev');
+  CustomEnv.fromFile('.env');
 
   final _di = Injects.initialize();
 
